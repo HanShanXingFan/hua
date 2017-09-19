@@ -1,0 +1,44 @@
+<div class="botscroll">
+	<ul class="paginacon pagination2">
+		<!--<li  ng-click="changeImg(item.imgatv,item.worspe)" ng-repeat="item in guanlian">
+			<img ng-hide="imgFlag == item.imgatv" ng-src="{{item.img}}" alt="" />
+			<img ng-class="{'turn':imgFlag != item.imgatv}" ng-src="{{item.imgatv}}" alt="" />
+			<p ng-class="{'active':textFlag==item.worspe}">{{item.worspe}}</p>
+		</li>-->
+		<li class="active">
+			<img ng-src="{{guanlian[0].img}}" alt="" />
+			<img class="turn" ng-src="{{guanlian[0].imgatv}}" alt="" />
+			<p>{{guanlian[0].worspe}}</p>
+		</li>
+		<li>
+			<img ng-src="{{guanlian[1].img}}" alt="" />
+			<img class="turn" ng-src="{{guanlian[1].imgatv}}" alt="" />
+			<p>{{guanlian[1].worspe}}</p>
+		</li>
+		<li>
+			<img ng-src="{{guanlian[2].img}}" alt="" />
+			<img class="turn" ng-src="{{guanlian[2].imgatv}}" alt="" />
+			<p>{{guanlian[2].worspe}}</p>
+		</li>
+		<li>
+			<img ng-src="{{guanlian[3].img}}" alt="" />
+			<img class="turn" ng-src="{{guanlian[3].imgatv}}" alt="" />
+			<p>{{guanlian[3].worspe}}</p>
+		</li>
+	</ul>
+	<div class="swiper-container swiper2">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="img/brand001.jpg"/></div>
+            <div class="swiper-slide"><img src="img/brand002.jpg"/></div>
+            <div class="swiper-slide"><img src="img/brand003.jpg"/></div>
+            <div class="swiper-slide"><img src="img/brand004.jpg"/></div>
+        </div>
+        <div class="swiper-pagination swiper-pagination2"></div>
+    </div>
+	<ul class="swibot">
+		<li class="activetext">专注鲜花礼品12年，2016年获评“鲜花行业龙头企业”</li>
+		<li>覆盖全国1000+城市，最快1~3小时送达</li>
+		<li>花礼网倡导勇敢表达爱，享受爱的美好</li>
+		<li>坚持公开所有花款实拍，严格管控质量</li>
+	</ul>
+</div>

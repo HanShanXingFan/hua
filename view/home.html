@@ -1,0 +1,83 @@
+
+<div class="main">
+	<img align="absbottom" class="logoimg" ng-src="{{firstimg[0]}}" alt="" />
+	<div>
+		<img class="searchimg" ng-src="{{firstimg[1]}}" alt="" />
+		<input type="text" placeholder="教师节"/>
+	</div>
+	<p><a href="#">登录</a></p>
+</div>
+<!--大图滚动-->
+<div class="swiper-container container swiper1">
+    <div class="swiper-wrapper">
+        <div ng-repeat="item in startscroll" class="swiper-slide">
+        	<a href="#"><img ng-src="{{item}}" alt="" /></a>
+        </div>
+    </div>
+    <!-- 如果需要分页器 -->
+    <div class="swiper-pagination pagination swiper-pagination1"></div>
+</div>
+<div class="introduce">
+	<ul>
+		<li>· 认证龙头企业</li>
+		<li>· 12年品牌</li>
+		<li>· 3小时送达</li>
+		<li>. 最近<a style="text-decoration: underline;color: #000000;" href="#">222095</a>条好评</li>
+	</ul>
+</div>
+<!--产品分类-->
+<div center-nav class="cennav"></div>
+<!--鲜花精选-->
+<div flower-chose class="flowers"></div>
+<div flower-show class="flowersee"></div>
+<!--全部永生花-->
+<div class="flowerchose">
+	<span class="lineone"></span>
+	<span ng-bind="firstimg[2]"></span>
+	<span class="linetwo"></span>
+</div>
+<div class="flowersee flowershow">
+	<ul>
+		<li ng-repeat="item in yongshen">
+			<div class="flowerins">
+				<a href="#"><img ng-src="{{item.img}}" alt="" /></a>
+				<div>
+					<p>{{item.name}}</p>
+					<p>{{item.connect}}</p>
+					<p>{{item.price}}</p>
+				</div>
+			</div>
+		</li>
+	</ul>
+	<div class="allflower">
+		<a href="#">全部永生花&nbsp;></a>
+	</div>
+</div>
+<!--关联大图滚动-->
+<div guan-lian></div>
+<!--信息-->
+<div class="checksee">
+	<ul>
+		<li><a href="#">花语大全</a></li>
+		<li><a href="#">查单</a></li>
+		<li><a href="#">关于我们</a></li>
+	</ul>
+</div>
+<!--客户-->
+<div class="custom">
+	<a href="#"><img src="img/icon-phonenew.png"/></a>
+	<a href="#"><img src="img/icon-kefu.png"/></a>
+</div>
+<!--网站备注信息-->
+<div class="webins">
+	<p>Copyright © 2005~2017 花礼网(中国鲜花礼品网) 版权所有</p>
+	<p>中国鲜花网领先品牌，鲜花速递专家！</p>
+</div>
+<!--悬浮客服导航-->
+<div class="overcustomserve">
+	<span></span>
+</div>
+<!--返回顶部-->
+<div class="returntop">
+	<span></span>
+</div>
